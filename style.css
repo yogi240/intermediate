@@ -1,0 +1,282 @@
+
+
+p {
+  margin-left: 30px;
+  color: #121b74;
+  font-size: 30px;
+}
+
+.top-container{
+float:right;
+padding-right: 250px;
+padding-top:30px;
+
+}
+
+a{
+  margin: 15px;
+
+}
+
+.PARAGRAPH {
+  line-height: 2;
+  margin-left: 30px;
+}
+
+h5, h5 {
+    font-size: 1.25rem;
+    LINE-HEIGHT: 2;
+  }
+
+
+/* SECTION-1 */
+
+
+#sec-1 {
+  margin-top: 100px;
+}
+
+.logo {
+  margin-left: 80px;
+ /* top: 50px; */
+ margin-top: 50px;
+}
+.img-1 {
+  width: 400px;
+  height: 400px;
+margin-left: 100px;
+}
+.mail {
+  margin-left: 30px;
+}
+
+
+
+/* SECTION-2 */
+
+#sec-2 {
+  margin-top: 200px;
+  background: url(bg-curve-desktop.svg)
+}
+
+.img-2 {
+  width: 400px;
+  height: 400px;
+margin-left: 100px;
+    margin-top: 50px;
+}
+.quotes{
+  margin-left: 30px;
+}
+.para-fylo{
+  width: 400px;
+  margin-left: 10px;
+}
+
+.box {
+
+        box-shadow: 1px 1px 5px 1px;
+      width: 400px;
+      margin-left: 30px;
+}
+
+/* SECTION-3 */
+
+#sec-3 {
+  margin-top: 100px;
+  background-color: #6b778d;
+  height: 300px;
+
+}
+.para_early {
+  color: white;
+  line-height: 2;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.para_it {
+  color: white;
+  line-height: 2;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.email {
+  margin-left: 100px;
+    margin-top: 80px;
+    width: 350px;
+}
+.butn_GET1 {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.avatar {
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
+.box{
+margin-top: 20px;
+}
+.kyle {
+  margin-left: 150px;
+bottom: 10px;
+position: absolute;
+}
+.butn_fylo{
+  margin-left: 30px;
+}
+.founder{
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+/* SECTION-4 */
+
+#sec-4 {
+
+  background-color: #010059;
+  height: 400px;
+  color: white;
+  width: 100%;
+}
+
+.images {
+margin-top: 100px;
+}
+.list {
+  color: white;
+}
+
+
+/* buttons */
+
+.button2 {
+ background-color: #007bff;
+width: 200px;
+height: 30px;
+color: white;
+font-size: 15px;
+}
+.Started{
+  margin-top: 20PX;
+  margin-left: 100PX;
+}
+
+
+/* mobile respomse */
+
+
+@media (max-width:767px) {
+
+/* SECTION-1 */
+
+.img1-div{
+  order: 1;
+}
+.content-div1 {
+  order: 2;
+}
+.img-1{
+  width: 300px;
+  height: 250px;
+  position: relative;
+  right: 100px;
+}
+.image {
+  /* position: absolute;
+  top: 15px;
+  width: 80px;
+  left: 20px; */
+}
+.Feature{
+  position: absolute;
+      right: 120px;
+      top: 0px;
+}
+.Team{
+  position: absolute;
+      right: 70px;
+      top: 0px;
+}
+.in{
+  position: absolute;
+      right: 10px;
+      top: 0px;
+}
+.para_all{
+  width: 250px;
+  margin-left: 30px;
+}
+.button2{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+
+/* section-2 */
+
+.img2-div{
+  order: 1;
+}
+.content-div2 {
+  order: 2;
+}
+.img-2 {
+  width: 300px;
+  height: 250px;
+  position: relative;
+  right: 100         <!-- <p><h5 class="PARAGRAPH">Fylo has improved our team productivity by an order of magnitude.Since making the switch our team has become a well-oiled collabration machine</h5> -->
+px;
+}
+.para-stay{
+  padding-right: 10px;
+margin-left: 30px
+}
+.box {
+  width: 300px;
+  margin-left: 0px;
+}
+.para-fylo{
+  width: 300px;
+}
+
+
+
+/* section-3 */
+
+.get{
+font-size: 20px;
+}
+.para_it{
+
+font-size: 10px;
+}
+.email{
+  position: relative;
+  width: 200px;
+  right: 50px;
+  bottom: 90px;
+}
+.Started {
+  position: relative;
+  width: 200px;
+bottom: 100px;
+right: 10px;
+}
+
+/* section-4 */
+
+#sec-4{
+  height: 650px;
+}
+.images {
+margin: 0px !important;
+
+}
+.social{
+  margin-left: 30px !important;
+}
+}
